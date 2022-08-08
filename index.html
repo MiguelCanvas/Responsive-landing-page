@@ -11,23 +11,24 @@
 </head>
 <body>
     <header>
+        <div class="color-black"></div>
         <h1>Snap</h1>
         <div class="container">
             <ul class="menu-list-container">
                 <ul class="menu-list">
-                    <p>Features</p>
+                    <p onclick="showListFeature()">Features<i class=" arrow-icon fa-solid fa-chevron-down fa-2xs"></i></p>
                     <div class="menu-feature-container">
-                        <li class="menu-list-features"><a href="#">Todo list</a></li>
-                        <li class="menu-list-features"><a href="#">Calendar</a></li>
-                        <li class="menu-list-features"><a href="#">Reminders</a></li>
-                        <li class="menu-list-features"><a href="#">Planing</a></li>
+                        <li class="menu-list-features"><a href="#"> <img class="header-icon" src="images/icon-todo.svg"alt="#">Todo list</a></li>
+                        <li class="menu-list-features"><a href="#"> <img class="header-icon" src="images/icon-calendar.svg"alt="#">Calendar</a></li>
+                        <li class="menu-list-features"><a href="#"> <img class="header-icon" src="images/icon-reminders.svg"alt="#">Reminders</a></li>
+                        <li class="menu-list-features"><a href="#"> <img class="header-icon" src="images/icon-planning.svg"alt="#">Planing</a></li>
                     </div>
                     
                 </ul>
                 <ul class="menu-list">
-                    <p>Company</p>
+                    <p onclick="showListCOmpany()">Company<i class="arrow-icon fa-solid fa-angle-down fa-xs"></i></p>
                     <div class="menu-company-container">
-                        <li class="menu-company"><a href="#">History</a></li>
+                        <li class="menu-company"><a href="#"> <img src="images/" alt=""> History</a></li>
                         <li class="menu-company"><a href="#">Our teams</a></li>
                         <li class="menu-company"><a href="#">Blog</a></li>
                     </div>
@@ -37,9 +38,11 @@
             </ul>
             <div class="button-container">
                 <button>Login</button>
-                <button>Register</button>
+                <button class="button-register">Register</button>
             </div>
+            
         </div>
+        <span><i class="fa-solid fa-bars fa-xl" onclick="changeIcon(this)"></i></span>
     </header>
 </body>
 </html>
