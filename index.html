@@ -16,7 +16,7 @@
         <div class="container">
             <ul class="menu-list-container">
                 <ul class="menu-list">
-                    <p onclick="showListFeature()">Features<i class=" arrow-icon fa-solid fa-chevron-down fa-2xs"></i></p>
+                    <p class="menu-title" onclick="showListFeature()">Features<i class=" arrow-icon fa-solid fa-chevron-down fa-2xs"></i></p>
                     <div class="menu-feature-container">
                         <li class="menu-list-features"><a href="#"> <img class="header-icon" src="images/icon-todo.svg"alt="#">Todo list</a></li>
                         <li class="menu-list-features"><a href="#"> <img class="header-icon" src="images/icon-calendar.svg"alt="#">Calendar</a></li>
@@ -26,7 +26,7 @@
                     
                 </ul>
                 <ul class="menu-list">
-                    <p onclick="showListCOmpany()">Company<i class="arrow-icon fa-solid fa-angle-down fa-xs"></i></p>
+                    <p class="menu-title" onclick="showListCOmpany()">Company<i class="arrow-icon fa-solid fa-angle-down fa-xs"></i></p>
                     <div class="menu-company-container">
                         <li class="menu-company"><a href="#"> <img src="images/" alt=""> History</a></li>
                         <li class="menu-company"><a href="#">Our teams</a></li>
@@ -44,5 +44,33 @@
         </div>
         <span><i class="fa-solid fa-bars fa-xl" onclick="changeIcon(this)"></i></span>
     </header>
+
+
+    <main>
+        <div class="main-container">
+            <div class="img-container">
+                <img class="main-image" src="images/image-hero-mobile.png" alt="#">
+                <img class="main-image-desktop" src="images/image-hero-desktop.png" alt="#"> 
+            </div>
+            
+            <div class="main-content">
+                <div class="main-content-title">
+                    <h2>Make remote work</h2>
+                    <p class="main-paragraph">Get your team in sync, no matter your location. <br>Streamline processes, create team rituals, <br> and watch productivity soar</p>
+                    <button class="main-button">Learn more</button>
+                </div>
+                
+                <div class="main-icon-container">
+                    <img src="images/client-databiz.svg" width="60px" height="20px" alt="databiz">
+                    <img src="images/client-audiophile.svg" width="50px" height="30px" alt="client-audiophile">
+                    <img src="images/client-meet.svg" width="60px" height="18px" alt="meet">
+                    <img src="images/client-maker.svg" width="70px" height="20px" alt="maker">
+                </div>
+            </div>
+            
+        </div>
+        
+    </main>
+
 </body>
 </html>
